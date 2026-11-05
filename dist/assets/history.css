@@ -1,0 +1,14 @@
+.history-content{max-width:1240px;margin:0 auto;padding:44px clamp(24px,5vw,72px) 80px}
+.history-timeline{margin:0}
+.history-year{display:grid;grid-template-columns:110px minmax(0,1fr);gap:28px;border-top:1px solid #d7dbd7;padding:32px 0}
+.history-year dt{font-size:27px;font-weight:600;line-height:1.5;letter-spacing:normal;color:#80620b}
+.history-year dd{margin:0;min-width:0}
+.history-year ul{list-style:none;margin:0;padding:0;display:grid;gap:24px}
+.history-year li{display:grid;grid-template-columns:68px minmax(0,1fr);gap:18px}
+.history-date{font-size:14px;color:#73787a;line-height:1.8;padding-top:2px;letter-spacing:normal}
+.history-year p{font-size:17px;line-height:1.8;letter-spacing:normal;color:#40484b;margin:0;word-break:keep-all}
+html[lang=en] .history-year p{font-size:20px;line-height:1.65}
+html[data-theme=light] .history-year dt{color:#087e78}
+@media(max-width:680px){.history-content{padding-top:24px}.history-year{grid-template-columns:1fr;gap:16px;padding:26px 0}.history-year dt{font-size:25px}.history-year li{grid-template-columns:58px minmax(0,1fr);gap:12px}.history-year p{font-size:16px}html[lang=en] .history-year p{font-size:20px}.history-date{font-size:13px}}
+.about-tabs{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media(max-width:680px){.about-tabs{grid-template-columns:repeat(5,minmax(80px,1fr))}html[lang=en] .about-tabs{grid-template-columns:repeat(5,minmax(96px,1fr))}}

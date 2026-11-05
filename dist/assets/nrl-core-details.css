@@ -1,0 +1,13 @@
+#technical-cores .tc-grid{grid-template-columns:minmax(0,1fr);gap:32px}
+#technical-cores .detail-card{padding:clamp(24px,3.5vw,44px);min-width:0}
+#technical-cores .detail-card h3{max-width:950px;letter-spacing:normal;line-height:1.45}
+.tc-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;margin-top:30px}
+#technical-cores .detail-card .tc-overview h4,#technical-cores .detail-card .tc-topics h4{font-size:17px;line-height:1.5;font-weight:600;letter-spacing:normal;color:#292d30;margin:0 0 14px}
+#technical-cores .detail-card .tc-overview p{font-size:18px;line-height:1.85;color:#50565b;margin:0;letter-spacing:normal}
+#technical-cores .detail-card .tc-topics{margin-top:30px;padding-top:24px;border-top:1px solid #dedfda}
+#technical-cores .detail-card .tc-topics ul{border:0;margin:0}
+#technical-cores .detail-card .tc-topics li{font-size:17px;line-height:1.8;letter-spacing:normal;padding-top:10px;color:#50565b}
+html[lang=en] #technical-cores .detail-card .tc-overview p{font-size:21px;line-height:1.7}
+html[lang=en] #technical-cores .detail-card .tc-topics li{font-size:20px;line-height:1.65}
+@media(max-width:1000px){.tc-overview{grid-template-columns:1fr;gap:26px}}
+@media(max-width:680px){#technical-cores .tc-grid{gap:24px}.tc-overview{margin-top:24px}#technical-cores .detail-card .tc-overview p{font-size:17px;line-height:1.8}#technical-cores .detail-card .tc-topics li{font-size:16px}html[lang=en] #technical-cores .detail-card .tc-overview p,html[lang=en] #technical-cores .detail-card .tc-topics li{font-size:20px}}

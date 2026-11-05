@@ -1,0 +1,8 @@
+.vision-content{max-width:1120px;margin:0 auto;padding:48px clamp(24px,5vw,72px) 80px}
+.vision-intro{margin-bottom:44px}
+.vision-intro h2{font-size:clamp(26px,3vw,34px);line-height:1.5;font-weight:600;letter-spacing:normal;margin:0 0 24px;word-break:keep-all}
+.vision-content p{font-size:17px;line-height:1.85;color:#444c50;letter-spacing:normal;margin:0;word-break:keep-all}
+.vision-principle{padding:30px 0;border-top:1px solid #d9dcd7}
+.vision-principle h3{font-size:22px;line-height:1.5;font-weight:600;letter-spacing:normal;margin:0 0 18px;word-break:keep-all}
+html[lang=en] .vision-content p{font-size:21px;line-height:1.7}
+@media(max-width:680px){.vision-content{padding-top:32px;padding-bottom:60px}.vision-intro{margin-bottom:32px}.vision-intro h2{font-size:26px}.vision-principle{padding:26px 0}.vision-principle h3{font-size:21px}.vision-content p{font-size:16px;line-height:1.85}html[lang=en] .vision-content p{font-size:20px;line-height:1.65}}

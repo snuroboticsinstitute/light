@@ -1,0 +1,33 @@
+/* The same content heading level across every NRL tab. */
+html[lang] [data-nrl-page] .nrl-overview h2,
+html[lang] [data-nrl-page] .detail-head .section-title,
+html[lang] [data-nrl-page] .faculty-toolbar>div>h2{
+ font-family:inherit;font-size:32px;font-weight:600;line-height:1.4;letter-spacing:normal;color:#24282b;margin:0 0 24px;
+}
+html[lang] [data-nrl-page] .nrl-overview h3,
+html[lang] [data-nrl-page] .detail-card h3{font-family:inherit;font-size:24px;font-weight:600;line-height:1.45;letter-spacing:normal}
+[data-nrl-page] .nrl-overview{max-width:none;margin:0;padding:40px clamp(26px,6vw,82px) 76px}
+[data-nrl-page] .nrl-overview header{padding:0 0 36px;max-width:960px}
+[data-nrl-page] .detail-section{padding-top:40px}
+[data-nrl-page] .detail-head{align-items:start}
+[data-nrl-page] .nrl-tabs a[aria-current=page]{background:transparent;color:#24282b}
+@media(max-width:680px){
+ html[lang] [data-nrl-page] .nrl-overview h2,
+ html[lang] [data-nrl-page] .detail-head .section-title,
+ html[lang] [data-nrl-page] .faculty-toolbar>div>h2{font-size:26px;margin-bottom:20px}
+ html[lang] [data-nrl-page] .nrl-overview h3,
+ html[lang] [data-nrl-page] .detail-card h3{font-size:22px}
+ [data-nrl-page] .nrl-overview{padding:32px 22px 52px}
+ [data-nrl-page] .detail-section{padding-top:32px}
+}
+
+/* NRL introduction: same type scale as the other menu pages */
+html[lang] [data-nrl-page] .nrl-overview h2{font-size:clamp(22px,2.5vw,30px);margin-bottom:20px}
+html[lang] [data-nrl-page] .nrl-overview h3{font-size:18px;margin-bottom:14px}
+html[lang] [data-nrl-page] .nrl-overview h4{font-size:16px}
+html[lang] [data-nrl-page] .nrl-overview .nrl-overview-label{font-size:12px}
+html[lang] [data-nrl-page] .nrl-overview .nrl-overview-lead{font-size:16px;line-height:1.9}
+html[lang] [data-nrl-page] .nrl-overview .nrl-overview-section>p{font-size:15px;line-height:1.95}
+html[lang] [data-nrl-page] .nrl-overview li a{font-size:16px}
+html[lang] [data-nrl-page] .nrl-overview li p{font-size:14px;line-height:1.8}
+html[lang] [data-nrl-page] .nrl-overview .nrl-overview-section>p+p{margin-top:14px}

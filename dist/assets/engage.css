@@ -1,0 +1,9 @@
+.engage-content{padding:52px clamp(24px,5vw,72px) 72px;max-width:1200px}
+.engage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.engage-card{padding:28px;background:#fff;border:1px solid #d8d9d6;scroll-margin-top:100px;min-width:0}
+.engage-card small{font-size:12px;line-height:1.5;letter-spacing:normal;color:#80620b}
+.engage-card h3{font-size:24px;font-weight:600;line-height:1.4;letter-spacing:normal;margin:22px 0 16px}
+.engage-card p,.engage-content>p{font-size:17px;line-height:1.8;color:#50585c}
+html[lang=en] .engage-card p,html[lang=en] .engage-content>p{font-size:20px;line-height:1.7}
+html[data-theme=light] .engage-card small{color:#087e78}
+@media(max-width:680px){.engage-grid{grid-template-columns:1fr}.engage-content{padding-top:34px}.engage-card{padding:24px}.engage-card h3{font-size:22px}}

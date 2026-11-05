@@ -1,0 +1,9 @@
+{
+ "projects": [
+  {"id":"nrl-hpair","title":{"ko":"인간중심 피지컬 AI 로보틱스 연구소 (H-PAIR)","en":"Human-Centered Physical AI Robotics (H-PAIR)"},"program":{"ko":"국가연구소(NRL 2.0)","en":"National Research Lab (NRL 2.0)"},"agency":{"ko":"과학기술정보통신부·교육부","en":"Ministry of Science and ICT · Ministry of Education"},"period":"2026–2035","pi":{"ko":"조규진","en":"Kyu-Jin Cho"},"url":{"ko":"/research/nrl/","en":"/en/research/nrl/"}},
+  {"id":"infra-soft-wearable-medical","title":{"ko":"소프트 로봇, 웨어러블 로봇 및 의료용 로봇을 위한 물리·디지털·AI 기반 인프라 구축에 관한 연구","en":"Physical, Digital and AI Infrastructure for Soft, Wearable and Medical Robots"},"program":{"ko":"인재활용확산지원","en":"Talent Utilization Support Program"},"agency":{"ko":"과학기술정보통신부","en":"Ministry of Science and ICT"},"period":"2026–","pi":{"ko":"조규진","en":"Kyu-Jin Cho"}},
+  {"id":"emerge","title":{"ko":"자가 진화형, 환경 적응형 로봇을 위한 체화 지능 핵심 기술 개발 (EMERGE)","en":"EMERGE: Evolving Morphologies via Embodiment of Reconfigurable Geometries"},"program":{"ko":"자율형소프트로봇핵심기술국제공동연구","en":"International Joint Research on Core Technologies of Autonomous Soft Robots"},"agency":{"ko":"산업통상부","en":"Ministry of Trade, Industry and Resources"},"period":"2025–","pi":{"ko":"조규진","en":"Kyu-Jin Cho"}},
+  {"id":"soft-robotics-hub","title":{"ko":"소프트 로보틱스 국제 협력 허브 구축 및 인재 양성 사업","en":"International Collaboration Hub and Talent Development in Soft Robotics"},"program":{"ko":"자율형소프트로봇핵심기술국제공동연구","en":"International Joint Research on Core Technologies of Autonomous Soft Robots"},"agency":{"ko":"산업통상부","en":"Ministry of Trade, Industry and Resources"},"period":"2025–","pi":{"ko":"조규진","en":"Kyu-Jin Cho"}},
+  {"id":"srrc-2","title":{"ko":"인간중심 소프트로봇기술 연구센터 (2단계)","en":"Soft Robotics Research Center (SRRC), Phase 2"},"program":{"ko":"선도연구센터(ERC)","en":"Engineering Research Center (ERC)"},"agency":{"ko":"과학기술정보통신부","en":"Ministry of Science and ICT"},"period":"2023–","pi":{"ko":"조규진","en":"Kyu-Jin Cho"}}
+ ]
+}
