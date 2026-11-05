@@ -966,3 +966,6 @@ html[lang] .message .message-lead{font-size:34px;line-height:1.5;font-weight:600
 @media(max-width:680px){html[lang] .message .message-lead{font-size:26px}}
 html[lang=en] body main .message-body p,html[lang=en] body main .vision-content p,html[lang=en] body main .history-timeline p{font-size:20px;line-height:1.65}
 @media(max-width:680px){html[lang=en] body main .message-body p,html[lang=en] body main .vision-content p,html[lang=en] body main .history-timeline p{font-size:18px}}
+html[lang] .education-tabs.people-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:680px){html[lang] .education-tabs.people-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.people-operations>.member-section:first-child{margin-top:0}

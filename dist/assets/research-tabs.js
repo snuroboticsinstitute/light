@@ -1,6 +1,6 @@
 (() => {
   const panels = [...document.querySelectorAll('.research-tab-panel')];
-  const tabs = [...document.querySelectorAll('.research-tabs a, .nrl-tabs a')];
+  const tabs = [...document.querySelectorAll('.research-tabs a, .nrl-tabs a, .people-tabs a')];
   if (!panels.length) return;
   function select() {
     const id = location.hash.slice(1);
