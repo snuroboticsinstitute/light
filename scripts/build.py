@@ -78,6 +78,8 @@ def main(src, out):
             menu = build_menu(lang, section(page))
             html = re.sub(r'(<nav class="side-nav"[^>]*>).*?</nav>', menu, html, flags=re.S)
             html = re.sub(r'(<nav class="mobile-nav" id="mobile-nav"[^>]*>).*?</nav>', menu, html, flags=re.S)
+            # The English version exists at /light/en/ but is not linked from the pages
+            html = re.sub(r'<nav class="language-switch"[^>]*>.*?</nav>', '', html, flags=re.S)
             html = prefix_paths(unwrap_excluded(html))
             target = out / pre / page / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)
