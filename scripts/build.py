@@ -3,7 +3,7 @@
 Usage: python3 scripts/build.py <main-site dist> <output dir>
 
 Copies only the pages listed in PAGES, keeps the main site's design, rebuilds
-the main menu (소개 · 사람들 · 국가연구소 · 소식), unwraps links to pages that
+the main menu (소개 · 사람들 · 국가연구소 · 교육 · 소식), unwraps links to pages that
 are not part of the light site, and prefixes absolute paths with BASE because
 the site is served from /light/.
 """
@@ -15,18 +15,19 @@ from pathlib import Path
 
 BASE = '/light'
 PAGES = ['', 'about/director-message/', 'about/vision/', 'about/history/', 'about/directions/',
-         'people/', 'research/nrl/', 'research/nrl/faculty/', 'updates/', 'updates/newsletter-01/', 'search/']
+         'people/', 'research/nrl/', 'research/nrl/faculty/',
+         'education/', 'education/creative-engineering-design/', 'education/talent-development/', 'updates/', 'updates/newsletter-01/', 'search/']
 ALLOWED = set('/' + p for p in PAGES) | set('/en/' + p for p in PAGES)
 MENU = {
     'ko': [('about', 'about/director-message/', '소개'), ('people', 'people/', '사람들'),
-           ('nrl', 'research/nrl/', '국가연구소'), ('updates', 'updates/', '소식')],
+           ('nrl', 'research/nrl/', '국가연구소'), ('education', 'education/', '교육'), ('updates', 'updates/', '소식')],
     'en': [('about', 'about/director-message/', 'About'), ('people', 'people/', 'People'),
-           ('nrl', 'research/nrl/', 'NRL'), ('updates', 'updates/', 'Updates')],
+           ('nrl', 'research/nrl/', 'NRL'), ('education', 'education/', 'Education'), ('updates', 'updates/', 'Updates')],
 }
 
 
 def section(page):
-    for key, prefix in (('about', 'about/'), ('people', 'people/'), ('nrl', 'research/nrl/'), ('updates', 'updates/')):
+    for key, prefix in (('about', 'about/'), ('people', 'people/'), ('nrl', 'research/nrl/'), ('education', 'education/'), ('updates', 'updates/')):
         if page.startswith(prefix):
             return key
     return None
