@@ -977,3 +977,5 @@ html[lang] .education-tabs.people-tabs{grid-template-columns:repeat(3,minmax(0,1
 .ops-admin .ops-tag{border-color:#b9bcbd;color:#50585c}
 .ops-card .member-duty{margin-top:4px}
 .ops-contact{margin:22px 0 0;font-size:14px;color:#50585c}
+/* Operations tags: one neutral style */
+html[lang] .ops-card .ops-tag{background:#fff;border-color:#b9bcbd;color:#50585c}
