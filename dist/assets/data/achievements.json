@@ -75,7 +75,7 @@
      "type": "article",
      "title": {
       "ko": "줄자처럼 말아서 보관했다가 필요할 때 '쑥'…견고한 로봇 팔",
-      "en": "Robot arm that rolls up like a tape measure and extends when needed (in Korean)"
+      "en": "Sturdy robot arm that rolls up like a tape measure and extends when needed (in Korean)"
      },
      "source": {
       "ko": "동아사이언스",
@@ -189,7 +189,7 @@
    },
    "summary": {
     "ko": "사람 손처럼 여러 물체를 한 번에 손바닥에 담은 뒤 하나씩 꺼내 원하는 위치에 놓을 수 있는 다물체 파지 그리퍼(MOGrip)를 개발했습니다. 픽 앤 플레이스 작업의 운반 시간을 줄일 수 있습니다.",
-    "en": "The lab developed MOGrip, a gripper that, like a human hand, holds several objects in its palm at once and places them one by one where needed, cutting transport time in pick-and-place tasks."
+    "en": "The lab developed MOGrip, a gripper that, like a human hand, holds several objects in its palm at once and places them one by one where needed, which can cut transport time in pick-and-place tasks."
    },
    "people": {
     "ko": "BioRobotics Laboratory",
@@ -453,7 +453,7 @@
    },
    "summary": {
     "ko": "생성형 정책이 같은 관측에서 만들어 내는 여러 궤적의 퍼짐을 분석해 문·서랍·볼트처럼 관절이 있는 물체가 허용하는 운동 방향을 추정하고, 그 방향에는 단단하게, 구속된 방향에는 유연하게 임피던스 게인을 정합니다. 시뮬레이션과 실제 로봇 실험에서 등방성 임피던스 제어보다 구속을 어기는 접촉 하중이 줄었으며, CoRL 2026 스포트라이트 논문으로 선정되었습니다.",
-    "en": "The method reads the spread of trajectories sampled from a generative policy to estimate which motions an articulated object (door, drawer, bolt) allows, then sets impedance gains that are stiff along those directions and compliant along constrained ones. In simulation and real-robot tests it reduced constraint-violating contact loads compared with isotropic impedance control; the paper was selected as a CoRL 2026 Spotlight."
+    "en": "The method reads the spread of trajectories that a generative policy produces from the same observation to estimate which motions an articulated object (door, drawer, bolt) allows, then sets impedance gains that are stiff along those directions and compliant along constrained ones. In simulation and real-robot tests it reduced constraint-violating contact loads compared with isotropic impedance control; the paper was selected as a CoRL 2026 Spotlight."
    },
    "people": {
     "ko": "Robotics & Automation Laboratory",
@@ -501,7 +501,7 @@
    },
    "summary": {
     "ko": "RGB 영상과 언어 지시로부터 동작과 함께 시간에 따라 변하는 강성(stiffness)을 예측하는 비전-언어-행동(VLA) 모델로, 기하학적 임피던스 제어로 실행합니다. 접촉이 많은 여러 조작 작업에서 기존 VLA와 순응 제어 기반 VLA보다 높은 평균 성공률을 보였습니다.",
-    "en": "A vision-language-action (VLA) model that predicts motion together with a time-varying stiffness from RGB images and language, executed through geometric impedance control. It achieved the highest average success rate across contact-rich tasks compared with vanilla and compliance-aware VLA baselines."
+    "en": "A vision-language-action (VLA) model that predicts motion together with a time-varying stiffness from RGB images and language instructions, executed through geometric impedance control. It achieved a higher average success rate across several contact-rich manipulation tasks than vanilla and compliance-aware VLA baselines."
    },
    "people": {
     "ko": "Robotics & Automation Laboratory",
@@ -549,7 +549,7 @@
    },
    "summary": {
     "ko": "RGB 영상만으로 관절이 있는 물체의 3차원 형상과 관절 구조(스크류 축)를 함께 복원하는 방법으로, 3D 가우시안 스플래팅과 스크류 이론을 결합했습니다. 복원한 운동학 모델과 대형 비전-언어 모델을 이용해 텍스트 지시에 따른 로봇 조작도 시연했으며, CoRL 2025 구두 발표 논문입니다.",
-    "en": "Recovers both the 3D geometry and the joint structure (screw axes) of articulated objects from RGB images alone by combining 3D Gaussian Splatting with screw theory. The recovered kinematic model, paired with a vision-language model, enables text-guided robot manipulation; the paper was an oral presentation at CoRL 2025."
+    "en": "Recovers both the 3D geometry and the joint structure (screw axes) of articulated objects from RGB images alone by combining 3D Gaussian Splatting with screw theory. The recovered kinematic model, paired with a large vision-language model, was also used to demonstrate text-guided robot manipulation; the paper was an oral presentation at CoRL 2025."
    },
    "people": {
     "ko": "Robotics & Automation Laboratory",
@@ -624,7 +624,7 @@
    },
    "summary": {
     "ko": "깊이 측정이 어려운 투명한 식기를 일부만 보이는 RGB 영상으로 인식하기 위해 변형 가능한 슈퍼쿼드릭 형상 모델을 사용하는 신경망을 제안했습니다. 이를 이용해 로봇이 다시 인식하지 않고 식기를 차례로 집어 정리하고, 처음에는 잡을 수 없던 와인잔 같은 물체를 꺼내는 작업을 수행했습니다.",
-    "en": "A neural network that recognizes transparent tableware from partial-view RGB images, where depth sensing is unreliable, using an extended family of deformable superquadrics. With it, a robot sequentially grasped objects without re-recognition and retrieved initially non-graspable targets such as a wineglass."
+    "en": "A neural network that recognizes transparent tableware from partial-view RGB images, where depth sensing is unreliable, using an extended family of deformable superquadrics. With it, a robot sequentially grasped and cleared the tableware without re-recognition and retrieved initially non-graspable targets such as a wineglass."
    },
    "people": {
     "ko": "Robotics & Automation Laboratory",
@@ -970,7 +970,7 @@
    },
    "summary": {
     "ko": "초광각 어안 카메라 4대로 360도 깊이와 위치를 추정하고 대규모 3차원 지도를 만드는 시스템으로, 깊이 추정 신경망 OmniMVS(ICCV 2019)를 바탕으로 합니다. ICRA 2020 로봇 비전 최우수 논문상 최종 후보에 올랐고, 이 기술로 창업 기업 멀티플아이(MultiplEYE)가 설립되었습니다.",
-    "en": "A system that estimates 360-degree depth and camera motion with four ultra-wide fisheye cameras and builds large-scale 3D maps, built on the OmniMVS depth network (ICCV 2019). It was a finalist for the ICRA 2020 Best Paper Award in Robot Vision, and the technology led to the start-up MultiplEYE."
+    "en": "A system that estimates 360-degree depth and camera pose with four ultra-wide fisheye cameras and builds large-scale 3D maps, built on the OmniMVS depth network (ICCV 2019). It was a finalist for the ICRA 2020 Best Paper Award in Robot Vision, and the technology led to the start-up MultiplEYE."
    },
    "people": {
     "ko": "Robot Vision Laboratory",
@@ -1068,7 +1068,7 @@
    },
    "summary": {
     "ko": "모터 없이 착용자의 몸 움직임만으로 작동하는 수동형 외골격 슈트입니다. 물건을 들 때 허리를 굽히지 않고 안전한 자세를 취하도록 유도해 허리 부담을 줄입니다.",
-    "en": "A passive exo-suit, driven only by the wearer's own body motion and without motors, that guides the wearer into a safer lifting posture and reduces the load on the lower back."
+    "en": "A passive exo-suit, driven only by the wearer's own body motion and without motors, that guides the wearer into a safe lifting posture without bending at the waist and reduces the load on the lower back."
    },
    "people": {
     "ko": "BioRobotics Laboratory",
